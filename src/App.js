@@ -68,7 +68,7 @@ function App() {
     setTodos(newTodos);
   };
 
-  const removeTodo = index => {
+  const removeTodo = (index) => {
     const newTodos = [...todos];
     newTodos.splice(index, 1);
     setTodos(newTodos);
